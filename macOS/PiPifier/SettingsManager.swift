@@ -6,25 +6,22 @@
 //  Copyright © 2016 APPenzeller. All rights reserved.
 //
 
-import Cocoa
+import Foundation
 
 class SettingsManager {
-    
-    static let shared = SettingsManager()
-    private init() {}
-    
-    //NOTE: replace with your own group identifier when developping for yourself
-    //Don't forget to change it in the entitlements as well otherwise it can cause crashes
-    let sharedUserDefaults = UserDefaults(suiteName: "AW9CBV6SY7.group.APPenzeller.PiPifier")!
-    
-    let buttonEnabledKey = "customPiPButtonsEnabled"
-    
-    var isCustomPiPButtonsEnabled: Bool {
-        get {
-            return sharedUserDefaults.value(forKey: buttonEnabledKey) as? Bool ?? true //default value is on
-        }
-        set(value) {
-            sharedUserDefaults.set(value, forKey: buttonEnabledKey)
-        }
+  static let shared = SettingsManager()
+
+  let sharedUserDefaults = UserDefaults(suiteName: "24T8GUQ6KA.group.pipifier")!
+  let buttonEnabledKey = "customPiPButtonsEnabled"
+
+  var isCustomPiPButtonsEnabled: Bool {
+    get {
+      sharedUserDefaults.value(forKey: buttonEnabledKey) as? Bool ?? true
     }
+    set {
+      sharedUserDefaults.set(newValue, forKey: buttonEnabledKey)
+    }
+  }
+
+  private init() {}
 }

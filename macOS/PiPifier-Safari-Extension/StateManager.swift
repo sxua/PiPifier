@@ -9,8 +9,8 @@
 import SafariServices
 
 class StateManager {
-    static let shared = StateManager()
-	private init() {}
-	
-	var videosFound: [SFSafariPage: Bool] = [:]
+  static let shared = StateManager()
+	var videosFound = [SFSafariPage: Bool]()
+
+  private init() {}
 }

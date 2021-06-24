@@ -252,7 +252,7 @@
 				TargetAttributes = {
 					1177FEEF1EC254370061D175 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = AW9CBV6SY7;
+						DevelopmentTeam = 24T8GUQ6KA;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
@@ -262,7 +262,7 @@
 					};
 					1177FF081EC256860061D175 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = AW9CBV6SY7;
+						DevelopmentTeam = 24T8GUQ6KA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -524,12 +524,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = AW9CBV6SY7;
+				DEVELOPMENT_TEAM = 24T8GUQ6KA;
 				INFOPLIST_FILE = "PiPifier iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.APPenzeller.PiPifier-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = name.sxua.pipifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -543,12 +543,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = AW9CBV6SY7;
+				DEVELOPMENT_TEAM = 24T8GUQ6KA;
 				INFOPLIST_FILE = "PiPifier iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.APPenzeller.PiPifier-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = name.sxua.pipifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -560,11 +560,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = AW9CBV6SY7;
+				DEVELOPMENT_TEAM = 24T8GUQ6KA;
 				INFOPLIST_FILE = PiPifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.APPenzeller.PiPifier-iOS.PiPifier";
+				PRODUCT_BUNDLE_IDENTIFIER = name.sxua.pipifier.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -577,11 +577,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = AW9CBV6SY7;
+				DEVELOPMENT_TEAM = 24T8GUQ6KA;
 				INFOPLIST_FILE = PiPifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.APPenzeller.PiPifier-iOS.PiPifier";
+				PRODUCT_BUNDLE_IDENTIFIER = name.sxua.pipifier.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;

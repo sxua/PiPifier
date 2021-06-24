@@ -1,0 +1,13 @@
+/* 
+  Localization.strings
+  PiPifier macOS
+
+  Created by Oleksandr Skrypnyk on 6/24/21.
+  Copyright © 2021 Oleksandr Skrypnyk. All rights reserved.
+*/
+
+"welcome" = "Welcome to PiPifier";
+"installation" = "Installation:";
+"instructions" = "1. Open Safari and go to Preferences\n2. Go to Extensions\n3. Enable PiPifier (If you don't see PiPifier and you built the app by yourself you need to sign it or choose Developer -> Allow unsigned extensions)\n4. Choose View > Customize Toolbar and drag the PiPifier icon to your toolbar\n5. To use PiPifier just press the icon when you're watching to an HTML5 video (Note: You need to interact with the video once. If it's autoplaying just pause and play again)";
+"settings" = "Settings:";
+"toggle" = "Enable custom PiP button on popular sites";
